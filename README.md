@@ -4,15 +4,11 @@ The Discord Message Manager is a PHP script that simplifies the management of yo
 # Configuration Settings
 Before using the Discord Message Manager, make sure to update the following configuration settings in the index.php file to suit your needs:
 
-`$token` -> https://stackoverflow.com/questions/71497839/how-discord-store-token
-
-`$file` -> Define the format in which you want to save messages (e.g., 'txt', 'json', 'csv').
-
-`$delete` -> Set to 'true' if you want to delete messages; set to 'false' to keep them.
-
-`$save` -> Set to 'true' to save messages; set to 'false' to skip saving.
-
-`$saveFile` -> Set to 'true' to save photos, videos, and files; set to 'false' to exclude them.
+- `$token` -> https://stackoverflow.com/questions/71497839/how-discord-store-token
+- `$file` -> Define the format in which you want to save messages (e.g., 'txt', 'json', 'csv').
+- `$delete` -> Set to 'true' if you want to delete messages; set to 'false' to keep them.
+- `$save` -> Set to 'true' to save messages; set to 'false' to skip saving.
+- `$saveFile` -> Set to 'true' to save photos, videos, and files; set to 'false' to exclude them.
 
 # Additional information
 Use this script with caution, especially when deleting messages, as the process is irreversible.
