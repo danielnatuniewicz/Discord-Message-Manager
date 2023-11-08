@@ -24,7 +24,7 @@ $conversationId = "conversation id";
 $file = "csv"; 
 $save = true;
 $saveFile = true; 
-$delete = true; 
+$delete = false; 
 
 /**
     * End of Configuration Settings
