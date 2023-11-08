@@ -38,7 +38,7 @@ class SaveManager {
             print("No attachments to save" . PHP_EOL);
             return;
         }
-        $this->saveFile($attachments);
+        $this->saveFile($attachments['attachments']);
     }
 
     public function saveJson($messages){
@@ -97,7 +97,7 @@ class SaveManager {
         if (!is_dir($baseDir)) {
             mkdir($baseDir, 0777, true);
         }
-
+        
         foreach($attachments as $attachment){
             $userDir = "{$baseDir}/{$attachment['username']}";
 
