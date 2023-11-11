@@ -11,6 +11,9 @@ Before using the Discord Message Manager, make sure to update the following conf
 - `$saveFile` -> Set to 'true' to save photos, videos, and files; set to 'false' to exclude them.
 - `$conversationId` -> Set the ID of the channel/conversation where you want to delete/save messages
 
+# Usage
+`php index.php`
+
 # Additional information
 Use this script with caution, especially when deleting messages, as the process is irreversible.
 Keep your Discord API token private and do not share it publicly.
