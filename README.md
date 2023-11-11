@@ -9,7 +9,7 @@ Before using the Discord Message Manager, make sure to update the following conf
 - `$delete` -> Set to 'true' if you want to delete messages; set to 'false' to keep them.
 - `$save` -> Set to 'true' to save messages; set to 'false' to skip saving.
 - `$saveFile` -> Set to 'true' to save photos, videos, and files; set to 'false' to exclude them.
-- `$conversationId` -> Set the ID of the channel where you want to delete/save messages
+- `$conversationId` -> Set the ID of the channel/conversation where you want to delete/save messages
 
 # Additional information
 Use this script with caution, especially when deleting messages, as the process is irreversible.
